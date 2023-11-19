@@ -65,11 +65,16 @@ Desondanks is de gesproken tekst als geheel goed verstaanbaar en eenvoudig te be
 
 
 Het contrast is zorgvuldig gecontroleerd en over het algemeen goed bevonden tijdens de tests. Er zijn effectieve kleurcombinaties gebruikt voor achtergronden en tekst, zoals zwart/wit, zwart/grijs en rood/geel. Bij het uitvoeren van een kleurencontrastcheck bij Siege Media, bleken alle kleuren over het algemeen goed leesbaar te zijn, met uitzondering van rood/geel. Deze combinatie vertoonde iets minder contrast dan de andere kleurcombinaties. Het gebruik van rood/geel is bovendien beperkt tot slechts twee woorden op de hele pagina, wat mogelijk bijdraagt aan de minder duidelijke leesbaarheid. 
-<img src="readme-images/redd.png" width="175px" alt="klueren">
+
+
+<img src="readme-images/redd.png" width="275px" alt="klueren">
 
 
 Bij de kleurenblindheidstest in Chrome werden alle opties grondig getest. Over het algemeen bleken alle tests positief, met uitzondering van de blurred vision-test, waarbij de tekst niet gemakkelijk te lezen was. Ook bij de reductie van het contrast waren de resultaten positief, en alle tekst bleek goed leesbaar. Op de website zelf bleek dat alle kleuren, zelfs zonder het gebruik van blauw, rood of groen, goed leesbaar waren. Het enige aandachtspunt is de blurred vision-test, waarbij de leesbaarheid van de tekst kan worden verbeterd voor gebruikers met dit type kleurenblindheid
-<img src="readme-images/bullrd.png" width="175px" alt="klueren">
+
+
+
+<img src="readme-images/bullrd.png" width="275px" alt="klueren">
 
 
 </details>
