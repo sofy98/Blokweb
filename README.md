@@ -107,26 +107,29 @@ Bij de kleurenblindheidstest in Chrome werden alle opties grondig getest. Over h
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+Deze week ben ik begonnen met het website maken , ik ben nog alleen in de basis van de website om op te bouwen . heb ik een html pagina gedaan en voor css heb ik alleen de header nagemaakt. ik vind nog moeilijk om alle css selectors te weten en gebruiken daarom ga ik volgende week meer op css werken.
+
+js ik laat het als laatste, ik wil eerts clean code hebben voor html css.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Safa           | Daan               | Red          | Chris            |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | css selectors  | Foto schalen per format             | Gif/Filmpje Responsive maken	   |  animated sliders |
+  |Beeld maatriaal van site downloaden| | | scroll animaties|
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - tools gebruiken om alle details van de website nemen "foto's/font"
+  - Nl ipv en
+  - js voor foto's in de pagina gebruiken 
+  - kijken welke pagina is handiger om als tweede te namaken
 
 </details>
 
