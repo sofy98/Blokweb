@@ -143,26 +143,27 @@ js ik laat het als laatste, ik wil eerts clean code hebben voor html css.
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ging goed: ik heb html pagina goed afgemaakt en ook begin css , de header en de footer en een section wel afgemaakt maar wat is lastig ging : ik heb erg moeite met css selectores 
+  ik heb 2 of 3 classes gebruikt en die wil ik verbeteren.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Safa     | student 2          | student 3    | student 4        |
+  | Safa     | Daan          | red     |  chris     |
   | ---            | ---                | ---          | ---              |
-  | over div's vragen  | en dit             | en ik dit    | en dan ik dat    |
-  |code controleren | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | over div's vragen  | felx box 
+  inconsistenties             |Keyframes animatie | geen vragen   |
+  |code controleren | Wanneer grid | css code herhaling voorkomen|  |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Mag ik alleen een class gebruik met goed uitleggen waarom heb ik die gebruikt 
+  - Style binnen html mag ik helemaal niet
+  
 
 </details>
 
@@ -176,7 +177,15 @@ js ik laat het als laatste, ik wil eerts clean code hebben voor html css.
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+ Ik heb mijn website voor voice-over voor het eerst opgezet en wil nu graag mijn bevindingen delen:
+
+1- Headers en links zijn volledig leesbaar.
+2- De tekst volledig correct is gelezen.
+3- Er lijkt echter een knop te ontbreken omdat deze niet correct is geschreven in de HTML.
+
+Bij Check formulier:
+Het grootste deel van de vragen is goed en heb ik al afgehandeld. Echter, ik werk nog aan enkele zaken, zoals het oplossen van het horizontale scrollen. Daarnaast moet ik ook opletten op het gebruik van meerdere h1-tags op één pagina
+
 
 </details>
 
@@ -190,17 +199,17 @@ js ik laat het als laatste, ik wil eerts clean code hebben voor html css.
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik heb de gehele HTML- en CSS-pagina voltooid en ervoor gezorgd dat alles responsive is op mijn website. Het hamburgermenu heb ik aanvankelijk in CSS gemaakt, maar ik ben van plan om het opnieuw te implementeren in JavaScript. Ik ben ook gestart met de tweede pagina, maar ben nog bezig met de afronding ervan.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  |Safa     | Daan          | Chris  | Red     |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Vraag over een deel van mijn 
+  pagina als die in css moet of js  | Slideshow/card slider           |Geen vragen   |   |
+  | als ik een animatie moet doen | | |  |
+  |Header/footer apart css          | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
