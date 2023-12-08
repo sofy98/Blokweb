@@ -43,8 +43,8 @@ Safa Mohalaia
   <img src="readme-images/home.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  NEWS pagina
-  <img src="readme-images/NEWS.jpg" width="375px" alt="omschrijving van de pagina">
+ CMD pagina
+  <img src="readme-images/Screenshot 2023-12-08 at 15.42.54.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
