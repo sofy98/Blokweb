@@ -40,7 +40,7 @@ Safa Mohalaia
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home Pagina 
-  <img src="readme-images/home.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/homww.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
  CMD pagina
