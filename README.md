@@ -201,6 +201,8 @@ Het grootste deel van de vragen is goed en heb ik al afgehandeld. Echter, ik wer
   ### Stand van zaken
 Ik heb de gehele HTML- en CSS-pagina voltooid en ervoor gezorgd dat alles responsive is op mijn website. Het hamburgermenu heb ik aanvankelijk in CSS gemaakt, maar ik ben van plan om het opnieuw te implementeren in JavaScript. Ik ben ook gestart met de tweede pagina, maar ben nog bezig met de afronding ervan.
 
+
+
   ### Agenda voor meeting
   samen met je groepje opstellen
 
@@ -215,11 +217,10 @@ Ik heb de gehele HTML- en CSS-pagina voltooid en ervoor gezorgd dat alles respon
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - Ik hoef niet om de menu in js maken ipv css , mag gwn in css blijven
+  - ik moet nog micro interaction doen in js
+  - ik mag wel alleen 2 css pagina , hoef het niet 3 
+  
 </details>
 
 
@@ -232,19 +233,42 @@ Ik heb de gehele HTML- en CSS-pagina voltooid en ervoor gezorgd dat alles respon
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+   Het onderdeel waar ik het meest aan heb gewerkt en tijd aan heb besteed, was het hamburgermenu. Ik ben zeer tevreden met het resultaat; het was zeker geen eenvoudige taak om het te creëren, maar uiteindelijk is het gelukt. Ik moest een klasse gebruiken om de neststructuren te maken, aangezien ik veel CSS-selectors moest toepassen en al andere directe selectoren had gebruik. 
+  <img src="readme-images/menu.png" width="275px" alt="uitomst opdracht 1">
+  Ik ben bijzonder tevreden over een ander aspect, namelijk de micro-interactie voor de foto's op de homepage die ik heb ontwikkeld. Ik heb alles in JavaScript geïmplementeerd en heb verschillende codes en benaderingen uitgeprobeerd. Uiteindelijk is het me gelukt om aan alle eisen van het vak te voldoen
+  <img src="readme-images/js.png" width="275px" alt="uitomst opdracht 2">
+  Voor het eerst heb ik twee video's op de pagina geplaatst, waarbij ik de structuur van de pagina heb weten te behouden.
+   <img src="readme-images/video.png" width="275px" alt="uitomst opdracht 3">
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb eigenlijk ontzettend veel geleerd tijdens dit blok, maar een van de meest waardevolle aspecten was het leren creëren van een responsive website met behulp van '@media' queries. Ik vind persoonlijk dat dit het meest uitdagende onderdeel was van wat we dit blok hebben bestudeerd. Het vergt veel tijd en concentratie om dit goed te doen, maar het resultaat is het waard. Daarnaast heb ik kennis opgedaan over het implementeren van kleine animaties in CSS. Het gebruik van JavaScript voor micro-interacties op mijn website was ook nieuw voor mij en heeft mijn begrip van front-end ontwikkeling verdiept.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Een andere waardevolle les was het werken met CSS-selectors zonder het gebruik van klassen of ID's, wat in het begin lastig was. Met veel oefening heb ik uiteindelijk geleerd hoe ik deze selectoren effectief kan gebruiken. Verder heb ik geleerd hoe ik mijn code beter kan begrijpen en efficiënter kan coderen. Dit omvatte niet alleen kennis van HTML-tags, maar ook inzicht in het optimaliseren van mijn code voor een betere leesbaarheid en onderhoud
+
+  <img src="readme-images/3.png" width="275px" alt="button style">
+  <img src="readme-images/4.png" width="275px" alt="js in de css">
+  <img src="readme-images/5.png" width="275px" alt="media responsive">
+  <img src="readme-images/6.png" width="275px" alt="media responsive">
+  <img src="readme-images/7.png" width="275px" alt="media responsive">
+  <img src="readme-images/8.png" width="275px" alt="js interaction">
+  <img src="readme-images/9.png" width="275px" alt="js interaction">
+  <img src="readme-images/10.png" width="275px" alt="css selectors">
+  <img src="readme-images/11.png" width="275px" alt="css selectors">
+  
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+ Ik heb aanzienlijke uitdagingen ondervonden bij het nauwkeurig repliceren van de structuur van de pagina. Bijvoorbeeld, het plaatsen van een video naast tekst met een header bleek lastig, omdat ik niet in staat was om het precies zoals de originele website te maken. Hoewel ik ze naast elkaar kreeg, waren er nog steeds enkele verschillen. Hetzelfde gold voor het gebruik van een afbeelding als achtergrond; hoewel ik erin slaagde om het als achtergrond in te stellen, had ik moeite om de grootte exact overeen te laten komen met die van de echte website. Het bleef helaas iets groter.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+Een ander struikelblok was het laatste deel van de website, waarbij ik een nummer wilde laten aftellen wanneer de gebruiker naar beneden scrolde. Dit bleek ook een uitdaging te zijn en resulteerde niet helemaal in het gewenste effect. Als iemand die geobsedeerd is door details en strevend naar perfectie, merkte ik alle kleine verschillen en nuances op tussen mijn pagina en het origineel.
+
+Ik ben blij met de resultaten die ik in korte tijd heb behaald, ondanks de uitdagingen. Het leer- en ontwikkelingsproces heeft mijn vaardigheden op een waardevolle manier verbeterd, en ik kijk tevreden terug op de vooruitgang die ik heb geboekt
+
+<img src="readme-images/size.png" width="375px" alt="size van de video en text">
+ <img src="readme-images/cijfers.png" width="375px" alt="cijfers aftellen">
+  <img src="readme-images/achter.png" width="375px" alt="achtergrond groot">
 </details>
 
 
