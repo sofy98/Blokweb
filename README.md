@@ -39,11 +39,13 @@ Safa Mohalaia
  Ons CMD website namaken 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Home Pagina 
+  Home Pagina  
+
   <img src="readme-images/homww.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
  CMD pagina
+
   <img src="readme-images/Screenshot 2023-12-08 at 15.42.54.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -93,7 +95,7 @@ Bij de kleurenblindheidstest in Chrome werden alle opties grondig getest. Over h
   <img src="readme-images/foot.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/fotoss.png" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/tweess.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -153,7 +155,7 @@ js ik laat het als laatste, ik wil eerts clean code hebben voor html css.
   | Safa     | Daan          | red     |  chris     |
   | ---            | ---                | ---          | ---              |
   | over div's vragen  | felx box 
-  inconsistenties             |Keyframes animatie | geen vragen   |
+  inconsistenties             |Keyframes animatie | geen vragen   |geen vragen
   |code controleren | Wanneer grid | css code herhaling voorkomen|  |
   | ...            | ...                | ...          | ...              |
 
@@ -234,10 +236,21 @@ Ik heb de gehele HTML- en CSS-pagina voltooid en ervoor gezorgd dat alles respon
 
   ### Je uitkomst - karakteristiek screenshots:
    Het onderdeel waar ik het meest aan heb gewerkt en tijd aan heb besteed, was het hamburgermenu. Ik ben zeer tevreden met het resultaat; het was zeker geen eenvoudige taak om het te creëren, maar uiteindelijk is het gelukt. Ik moest een klasse gebruiken om de neststructuren te maken, aangezien ik veel CSS-selectors moest toepassen en al andere directe selectoren had gebruik. 
+
+
   <img src="readme-images/menu.png" width="275px" alt="uitomst opdracht 1">
+
+
+
   Ik ben bijzonder tevreden over een ander aspect, namelijk de micro-interactie voor de foto's op de homepage die ik heb ontwikkeld. Ik heb alles in JavaScript geïmplementeerd en heb verschillende codes en benaderingen uitgeprobeerd. Uiteindelijk is het me gelukt om aan alle eisen van het vak te voldoen
+
+
   <img src="readme-images/js.png" width="275px" alt="uitomst opdracht 2">
+
+
   Voor het eerst heb ik twee video's op de pagina geplaatst, waarbij ik de structuur van de pagina heb weten te behouden.
+
+
    <img src="readme-images/video.png" width="275px" alt="uitomst opdracht 3">
 
 
@@ -248,13 +261,21 @@ Ik heb de gehele HTML- en CSS-pagina voltooid en ervoor gezorgd dat alles respon
   Een andere waardevolle les was het werken met CSS-selectors zonder het gebruik van klassen of ID's, wat in het begin lastig was. Met veel oefening heb ik uiteindelijk geleerd hoe ik deze selectoren effectief kan gebruiken. Verder heb ik geleerd hoe ik mijn code beter kan begrijpen en efficiënter kan coderen. Dit omvatte niet alleen kennis van HTML-tags, maar ook inzicht in het optimaliseren van mijn code voor een betere leesbaarheid en onderhoud
 
   <img src="readme-images/3.png" width="275px" alt="button style">
+
   <img src="readme-images/4.png" width="275px" alt="js in de css">
+
   <img src="readme-images/5.png" width="275px" alt="media responsive">
+
   <img src="readme-images/6.png" width="275px" alt="media responsive">
+
   <img src="readme-images/7.png" width="275px" alt="media responsive">
+
   <img src="readme-images/8.png" width="275px" alt="js interaction">
+
   <img src="readme-images/9.png" width="275px" alt="js interaction">
+
   <img src="readme-images/10.png" width="275px" alt="css selectors">
+
   <img src="readme-images/11.png" width="275px" alt="css selectors">
   
 
@@ -267,7 +288,9 @@ Een ander struikelblok was het laatste deel van de website, waarbij ik een numme
 Ik ben blij met de resultaten die ik in korte tijd heb behaald, ondanks de uitdagingen. Het leer- en ontwikkelingsproces heeft mijn vaardigheden op een waardevolle manier verbeterd, en ik kijk tevreden terug op de vooruitgang die ik heb geboekt
 
 <img src="readme-images/size.png" width="375px" alt="size van de video en text">
+
  <img src="readme-images/cijfers.png" width="375px" alt="cijfers aftellen">
+
   <img src="readme-images/achter.png" width="375px" alt="achtergrond groot">
 </details>
 
@@ -284,8 +307,13 @@ Ik ben blij met de resultaten die ik in korte tijd heb behaald, ondanks de uitda
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. chatgpt javasecript micro interactie 
+  2. Responsive -> https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+      https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+      https://css-tricks.com/a-complete-guide-to-css-media-queries/
+  3. Video Html -> https://www.w3schools.com/html/html5_video.asp
+  4. Mobile Navigation Bar ->https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+  5. Achtergrond in de css -> https://www.w3schools.com/cssref/pr_background-image.php
+  6. css selectors -> https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors
 
 </details>
