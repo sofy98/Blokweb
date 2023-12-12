@@ -1,0 +1,603 @@
+body {
+    margin: 0;
+    padding: 20;
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+	top: 0px;
+	left: 0px;
+	background-color:#fff;
+	z-index: 9999;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22);
+    padding: 0 100px;
+    position: fixed;
+    width: -webkit-fill-available;
+}
+
+header img {
+    max-height: 45px; 
+    margin-bottom: auto;
+}
+
+
+
+nav {
+    overflow: hidden;   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display:flex;
+}
+
+nav li {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align:center;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+nav a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: rgb(8, 8, 8);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+    width: 0%;
+}
+
+nav a:hover::after {
+    width: 70%;
+}
+nav li:last-child a img {
+    width: 10px; 
+}
+
+@media only screen and (max-width: 600px) {
+    header ul {
+            display: none;
+    }
+    header{
+        padding:0;
+    }
+  }
+
+
+
+
+
+
+
+/* menu style */
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: gray;
+  height: 30px;
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 10px;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  width: 100%;
+  padding: 10px 10px;
+}
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 700px) {
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: 10px;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #222;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .top-nav {
+          display: block;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .top-nav {
+          display: none;
+  }
+}
+  /* finish menu style */
+  
+
+
+/* first section*/
+
+main div section:first-child {
+    height: 350px;
+    margin-top: 0%;
+}
+/* js */
+main {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+main.appear {
+  opacity: 1;
+
+}
+/* js ended */
+
+main div section:first-child {
+    margin: 0;
+    padding: 0 10%;
+    text-align: justify;
+}
+
+main div section:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 100px;
+     height: 600px; 
+    overflow: hidden;
+    background-image: url("https://www.cmd-amsterdam.nl/wp-content/uploads/2018/11/cmd_daantjebons_0007-1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+main div section:first-child h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+}
+
+main div section:first-child p{
+    margin: 0;
+    display: inline;
+    position: relative;
+    left: 2px;
+    font-size: 22px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 17px;
+    color: white;
+    font-weight:lighter; 
+    letter-spacing: 0.9px;
+}
+
+main div section:first-child button{
+   margin-top: 25px;
+   background-color: black;
+   text-transform: uppercase;
+   font-size: 12px;
+   padding: 10px 17px;
+   line-height: 25px;
+   letter-spacing: 0.9px;
+   color: aliceblue;
+   border: none;
+}
+
+
+@media (max-width: 600px) {
+  main div section:first-child {
+    padding: 50px;
+    height: auto;
+    background-size: auto;
+  }
+
+  main div section:first-child h1 {
+    font-size: 30px;
+  }
+
+  main div section:first-child p {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  main div section:first-child button {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #fff021; /* Gele achtergrondkleur */
+    padding: 30px 100px;
+}
+
+.article div {
+    display: flex;   
+    flex-direction: column;
+    width: 45%;
+    padding: 10px 0px;
+}
+
+article h2{
+    color: #000000; /* Zwarte tekstkleur */
+    margin: 0; 
+    font-weight:bold;
+    font-size: 20px;
+    letter-spacing: 0.9px;
+
+}
+
+article p {
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    font-weight: 100;
+}
+article p:last-child {
+    font-size: 13px;
+    font-weight: 400;
+
+
+   
+}
+
+article img {
+    width: 350px;
+    height: auto;
+    margin-right: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    article {
+            flex-direction: column;
+            padding:20px 40px;
+            align-content: center;
+    }
+    article div{
+        width: fit-content;
+    }
+    article img  {
+        margin: 0;
+    }
+  }
+
+
+
+
+
+
+
+figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff; /* Witte achtergrondkleur */
+    padding: 10px 70px;
+    margin: 0;
+}
+
+figure img {
+    width: 320px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+figure h2 {
+    color: #000; /* Zwarte tekstkleur */
+    margin: 0; /* Voeg marge toe aan h1 en figcaption */
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+figure figcaption {
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    font-weight: 100;
+}
+
+figure p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+figure div {
+    display: flex;   
+    flex-direction:column;
+    width: 70%;
+    padding: 10px 70px;
+}
+
+@media only screen and (max-width: 600px) {
+    figure {
+            flex-direction: column;
+            padding:20px 40px;
+            align-content: center;
+    }
+    figure div {
+        width: fit-content;
+        padding: 10px;
+    }
+  }
+
+main div img  {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+.laatste {
+   display: flex;
+   padding: 50px 100px;
+   justify-content: space-between;
+   margin-bottom: 50px;
+}
+
+.laatste div{
+    width: 45%;
+}
+
+.laatste div h2{
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+.laatste div p {
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  font-weight: 100;
+  
+}
+
+.laatste div p:last-child{
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+main div:last-child details {
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+
+
+
+
+  /* Styling for the summary */
+summary {
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    background-color: #e7e2e2; /* Gray background */
+    color: rgb(172, 169, 169); /* Text color */
+    font-size: 13px;
+    width: 100%;
+    padding: 10px 200px 10px 10px;
+    margin-bottom: 20px;
+}
+
+
+  /* Styling for the open state of the details */
+details[open] summary {
+    background-color: #000; /* Solid black background when open */
+    color: #fff; /* White text color when open */
+}
+
+  /* Styling for the section inside details */
+details section {
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 13px;
+    
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .laatste{
+        flex-direction: column;
+        padding: 20px;
+        align-content: center;
+    }
+    .laatste div {
+        width: fit-content;
+    }
+    .laatste {
+        margin-top: 20px;
+        align-self: center;
+        width: fit-content;
+    }
+  }
+
+
+
+
+footer {
+   
+    background-color: #595959;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 140px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    font-size: 12px;
+}
+
+footer ul li a {
+    text-decoration: none;
+
+}
+
+footer p {
+    margin-top: 5px;
+    font-size: 10px;
+  
+}
+
+footer img{
+  width: 25px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+ footer {
+  padding: 20px;
+ }
+ footer img{
+  width: 20px;
+  margin-right: 20px;
+}
+
+}
+
+
+
+/* js */
+
+main img {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
+
+main img.appear {
+  opacity: 1;
+}
+/* ended js imges*/
