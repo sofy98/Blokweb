@@ -1,0 +1,268 @@
+/*  styles in :root */
+:root {
+    --main-section-padding: 30px 100px;
+    --section-padding-mobile: 20px 40px;
+    --text-color: #000;
+    --background-color-yellow: #fff021;
+    --background-color-white: #ffffff;
+    --background-color-black: #000;
+    --link-background-color: black;
+    --link-text-color: aliceblue;
+    --link-font-size: 12px;
+    --link-padding: 10px 17px;
+    --heading-font-size1:48px ;
+    --heading-font-size: 20px;
+    --paragraph-font-size: 15px;
+    --paragraph-font-size-small: 13px;
+    --image-width: 350px;
+    --image-max-width: 100%;
+    --image-margin-right: 100px;
+    --mobile-breakpoint: 600px;
+    --summary-font-size: 13px;
+    --summary-padding: 10px 200px 10px 10px;
+    --details-background: #e7e2e2;
+    --details-open-background: #000;
+    --details-text-color: rgb(172, 169, 169);
+    --font-family: 'Arial', sans-serif;
+    --secondary-color: #e6e6e6;
+    --box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    --header-padding: 10px 20px;
+}
+
+/* alle zelfde elementen in beide pagina's  styles */
+body {
+    margin: 0;
+    padding: 20;
+    font-family: var(--font-family);
+    width: 100vw;
+}
+
+header {
+    background-color: var(--background-color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    box-shadow: var(--box-shadow);
+    padding: var(--header-padding);
+    position: fixed;
+    width: -webkit-fill-available;
+}
+
+header img {
+    max-height: 45px; 
+    margin-bottom: auto;
+}
+
+nav {
+    overflow: hidden;   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display:flex;
+}
+
+nav li {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a {
+    display: block;
+    color: var(--text-color);
+    text-align:center;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+nav a:hover {
+    color: var(--text-color);
+}
+
+nav a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: var(--text-color);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+    width: 0%;
+}
+
+nav a:hover::after {
+    width: 70%;
+}
+
+nav li:last-child a img {
+    width: 10px; 
+}
+
+@media only screen and (max-width: 600px) {
+    header ul {
+        display: none;
+    }
+    header{
+        padding:0;
+    }
+}
+
+
+
+/* humbmenu js stylen */
+.menu-button {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 9999;
+}
+
+.menu-button > div {
+    width: 30px;
+    height: 3px;
+    background-color: var(--text-color);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.menu-button.change > div:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-button.change > div:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-button.change > div:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+@media only screen and (max-width: 600px) {
+    header ul {
+        display: none;
+    }
+
+    header.menu-open ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-button {
+        display: block;
+    }
+ }
+
+
+
+ /* Tussenliggende stijlen */
+@media only screen and (min-width: 601px) and (max-width: 1024px) { 
+    header ul {
+        display: none;
+    }
+
+    header.menu-open ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+/*end hmbmenu style*/
+
+
+footer {
+    background-color: #595959;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 140px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    font-size: 12px;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+footer img{
+    width: 25px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        padding: 20px;
+    }
+    footer img{
+        width: 15px;
+        margin-right: 20px;
+    }
+}
+
+
+/* Tussenliggende stijlen */
+@media only screen and (min-width: 601px) and (max-width: 1025px) {
+    footer {
+        padding: 10px;
+    }
+    footer img{
+        width: 20px;
+        margin-right: 10px;
+    }
+}
+
+/* js */
+main {
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+}
+
+main.appear {
+    opacity: 1;
+}
+
+/* js ended */

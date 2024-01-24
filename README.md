@@ -295,7 +295,35 @@ Ik ben blij met de resultaten die ik in korte tijd heb behaald, ondanks de uitda
 </details>
 
 
+### Herkansing 
+1- Nettere HTML-Tags:
+   Alle HTML-tags zijn opgeruimd en consistent gemaakt, door het gebruik van de section-tag.
 
+2- Efficiëntere HTML-Code:
+  Knoppen zijn vervangen door links (<a>).
+  Onnodige div-elementen zijn verwijderd.
+  De volgorde binnen de section-tags is verbeterd
+  titles zijn verbeterd
+
+3- CSS voor Gedeelde Elementen:
+  Een extra CSS-pagina is gemaakt voor gedeelde elementen op beide pagina's, 
+
+4- Gebruik van :root-Functie:
+  De :root-functie is gebruiket 
+
+5- Meer Responsieve Opmaak:
+  Een tussenliggende stijl is geïntroduceerd om de website responsiever te maken.
+  CSS is aangepast voor een betere layout op diverse schermformaten.
+
+6- CSS Vereenvoudigingen:
+  Overbodige CSS-code is verwijderd voor een schonere stylesheet.
+  Duidelijke commentaren  is toegevoegd om het begrijpelijker te maken.
+
+7- Hamburgermenu met JavaScript:
+  Een hamburgermenu is gemaakt met JavaScript zonder extra class of id in HTML/CSS.
+
+8- JavaScript Afbeelding Micro-interactie Weg:
+  Onnodige JavaScript-code voor afbeeldingsmicro-interactie is verwijderd 
 
 
 ## Bronnenlijst
