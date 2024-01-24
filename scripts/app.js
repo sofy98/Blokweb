@@ -1,5 +1,5 @@
 
-  /* main micro interaction */
+// main micro interaction
 // Select the main element
 const mainElement = document.querySelector('main');
 
@@ -22,12 +22,18 @@ const appearOnScrollMain = new IntersectionObserver(
         observer.unobserve(entry.target); // Only observes once
       }
     });
+  },
+  mainAppearOptions
+);
+
+// Observe the main element
+appearOnScrollMain.observe(mainElement);
+
+// img micro interaction
 
 
-
-
-
-    /* img micro interaction */
+  // img micro interaction 
+   /*
   },
   mainAppearOptions
 );
@@ -49,12 +55,12 @@ const appearOnScrollImage = new IntersectionObserver(
       // No intersection
       if (!entry.isIntersecting) {
         return;
-      } /* الصورة هون مو طالعة لسا لهيك مابصيرشي ومابتتفعل الخاصية */ 
+      }
       // Yes intersection
       else {
         entry.target.classList.add("appear");
         observer.unobserve(entry.target); // Only observes once
-      } /* حتا تنعرض الخاصية تبع التحميل مرة وحدة */ 
+      }
     });
   },
   imageAppearOptions
@@ -63,6 +69,21 @@ const appearOnScrollImage = new IntersectionObserver(
 // Observe each image
 images.forEach(image => {
   appearOnScrollImage.observe(image);
+}); */
+
+
+
+// menu functie
+document.addEventListener('DOMContentLoaded', function () {
+  var header = document.querySelector('header');
+
+  var menuButton = document.createElement('div');
+  menuButton.innerHTML = '<div></div><div></div><div></div>';
+  menuButton.className = 'menu-button';
+  
+  header.appendChild(menuButton);
+
+  menuButton.addEventListener('click', function () {
+      header.classList.toggle('menu-open');
+  });
 });
-/* مشان يتححددو كل الصور بقلب الصفحة */
-/* with help from chat gpt */
